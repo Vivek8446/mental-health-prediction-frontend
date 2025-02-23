@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { io } from 'socket.io-client';
 import Peer from 'simple-peer';
 
-const SERVER_URL = 'http://localhost:5000';
+const SERVER_URL = 'https://mental-health-prediction-video-call.onrender.com';
 
 export default function VideoCall() {
   const [socket, setSocket] = useState(null);
